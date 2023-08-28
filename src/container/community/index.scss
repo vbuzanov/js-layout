@@ -1,0 +1,62 @@
+@use '../../style/header.scss' as header;
+
+
+.community{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.community__tab{
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.community__tab-button{
+	width: 100%;
+	color: #888;
+	padding-bottom: 12px;
+}
+
+.active{
+	color: #121212;
+	border-bottom: 2px solid #121212;
+
+}
+
+.community__main{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.community__info{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.community__info--title{
+	font-size: 18px;
+	font-weight: 500;
+	color: #121212;
+}
+
+.community__info--text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #363636;
+	line-height: 150%;
+}
+
+.community__button{
+	border-radius: 10px;
+	background-color: #F46F17;
+	color:  #FFF;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
